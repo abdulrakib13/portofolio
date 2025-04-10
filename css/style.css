@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    font-family: "Poppins", sans-serif;
+}
+/*header part*/
+
+.navber {
+    background-color: black; 
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.row {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+.logo {
+    font-size: 40px;
+}
+.logo a {
+    text-decoration: none;
+    color: red;font-family: "Edu AU VIC WA NT Arrows", cursive;
+}
+.logo span {
+    font-size: 30px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.nav {
+
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li {
+}
+.nav ul li a {
+    padding: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.nav ul li a:hover {
+    color: red;
+    transition-duration: .3s;
+} 
+/*Hero*/
+.hero {
+    background-image: url(../photo/bg.jpg);
+    background-size: cover;
+    object-fit: cover;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+.title {
+    background-color: rgba(0, 255, 255, 0.363);
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+.title h1 {
+    font-size: 60px;
+    font-family: "Edu AU VIC WA NT Arrows", cursive;
+    color: red;
+}
+.title p {
+    font-size: 20px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+.btn {
+    background-color: red;
+    font-size: 18px;
+    padding: 15px 30px;
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 600;
+    border-radius: 10px;
+}
+.btn:hover {
+    background-color: black;
+    color: #fff;
+}
